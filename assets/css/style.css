@@ -1,0 +1,11 @@
+.jumbotron {
+    background-color: #99ccff;
+}
+
+#submit {
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+}
