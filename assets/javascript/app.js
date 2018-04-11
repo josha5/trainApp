@@ -26,6 +26,13 @@ $(document).ready(function() {
             trainTime: trainTime,
             frequency: frequency    
         });
+    });
 
+    database.ref().on("child_added", function(snapshot) {
+        let tRow = $("<tr>");
+        let tName = $("<td>");
+        let tDestination = $("<td>");
+        let tTime = $("<td>");
+        let tFrequency = $("<td>");
     });
 });
