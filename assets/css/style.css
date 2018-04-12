@@ -1,5 +1,9 @@
 .jumbotron {
-    background-color: #99ccff;
+    background-image:url("../images/HPlogo.png");
+    background-size: 100% 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 250px;
 }
 
 #submit {
@@ -8,4 +12,11 @@
 
 label {
     font-weight: bold;
+}
+
+body {
+    background-color: #d9d9d9;
+    background-image:url("../images/gryffindor.jpg");
+    background-size: contain;
+    color: white;
 }
