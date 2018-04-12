@@ -2,7 +2,6 @@
     background-image:url("../images/HPlogo.png");
     background-size: 100% 100%;
     border-radius: 20px;
-    border: 1px solid black;
     height: 250px;
 }
 
@@ -19,4 +18,9 @@ body {
     background-image:url("../images/gryffindor.jpg");
     background-size: contain;
     color: white;
+}
+
+tr {
+    background-color: black;
+    border-radius: 30px;
 }
